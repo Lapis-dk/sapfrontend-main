@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:auto;
+    background-image: url('../images/bg.jpeg');
+    background-size: cover;
+  }
+  
+  .chart-container {
+    height: 80%;
+    width: 80%;
+    max-width: 800px; /* Adjust as needed */
+  }
+  

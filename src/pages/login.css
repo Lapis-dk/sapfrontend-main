@@ -1,0 +1,53 @@
+
+.custom-container {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2xl;
+    box-shadow: 0 0 10px black;
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 400px;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.input-box{
+    margin-bottom: 10px;
+}
+
+.login-button{
+    padding: 8px;
+    border-radius: 15px;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: bold;
+    width: 70px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/bg_login_register4.jpg");
+    background-size: cover;
+
+}
+
